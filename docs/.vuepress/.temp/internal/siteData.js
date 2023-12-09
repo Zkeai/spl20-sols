@@ -1,4 +1,4 @@
-export const siteData = JSON.parse("{\"base\":\"/\",\"lang\":\"en-US\",\"title\":\"\",\"description\":\"\",\"head\":[],\"locales\":{}}")
+export const siteData = JSON.parse("{\"base\":\"/\",\"lang\":\"en-US\",\"title\":\"\",\"description\":\"\",\"head\":[],\"locales\":{\"/\":{\"lang\":\"en-US\",\"title\":\"SOLS SPL-20\"},\"/zh/\":{\"lang\":\"zh-CN\",\"title\":\"SOLS SPL-20\"}}}")
 
 if (import.meta.webpackHot) {
   import.meta.webpackHot.accept()

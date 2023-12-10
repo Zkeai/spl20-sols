@@ -1,6 +1,6 @@
 # Introduction
 
-So for people asking wtf is $SOLS - here you go:
+$SOLS - here you go:
 
 Understanding the fair launch (first is first) meta powered by
 [@LibrePlex](https://twitter.com/LibrePlex)

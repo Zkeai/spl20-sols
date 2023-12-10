@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-a5acec76","path":"/en/composis/","title":"Composis","lang":"en-US","frontmatter":{},"headers":[{"level":3,"title":"Requirement","slug":"requirement","link":"#requirement","children":[]}],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"en/composis/README.md"}');export{e as data};

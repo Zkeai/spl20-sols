@@ -1,5 +1,5 @@
 <template><div><h1 id="introduction" tabindex="-1"><a class="header-anchor" href="#introduction" aria-hidden="true">#</a> Introduction</h1>
-<p>So for people asking wtf is $SOLS - here you go:</p>
+<p>$SOLS - here you go:</p>
 <p>Understanding the fair launch (first is first) meta powered by
 <a href="https://twitter.com/LibrePlex" target="_blank" rel="noopener noreferrer">@LibrePlex<ExternalLinkIcon/></a></p>
 <p>inscriptions and why it's taking over solana.</p>

@@ -27,12 +27,16 @@ export default defineUserConfig({
         sidebar: [
           // SidebarItem
           {
-            text: "split",
+            text: "Split Token",
             link: "/en/split/",
           },
           {
-            text: "trade",
+            text: "Trade SOLS",
             link: "/en/trade/",
+          },
+          {
+            text: "Composis NFT",
+            link: "/en/composis/",
           },
         ],
       },
@@ -46,8 +50,12 @@ export default defineUserConfig({
           },
           // SidebarItem
           {
-            text: "拆分",
+            text: "拆分代币",
             link: "/zh/拆分/",
+          },
+          {
+            text: "合成NFT",
+            link: "/zh/合成/",
           },
         ],
       },

@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-387efb2c","path":"/en/lamp/","title":"","lang":"en-US","frontmatter":{},"headers":[{"level":3,"title":"SPL20 LAMP","slug":"spl20-lamp","link":"#spl20-lamp","children":[]}],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"en/lamp/README.md"}');export{e as data};

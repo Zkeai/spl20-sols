@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-44524fd2","path":"/zh/lamp/%E4%BA%A4%E6%98%93/","title":"交易","lang":"zh-CN","frontmatter":{},"headers":[{"level":2,"title":"拆分前","slug":"拆分前","link":"#拆分前","children":[]}],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"zh/lamp/交易/README.md"}');export{t as data};

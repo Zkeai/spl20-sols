@@ -14,7 +14,7 @@ export default defineUserConfig({
       },
     }),
 
-    backToTopPlugin(),
+    //backToTopPlugin(),
   ],
   theme: defaultTheme({
     // Public 文件路径
@@ -25,37 +25,84 @@ export default defineUserConfig({
         selectLanguageName: "English",
 
         sidebar: [
-          // SidebarItem
           {
-            text: "Split Token",
-            link: "/en/split/",
+            text: "SOLS",
+            link: "/en/sols/",
+            children: [
+              {
+                text: "Split Token",
+                link: "/en/sols/split/",
+              },
+              {
+                text: "Trade SOLS",
+                link: "/en/sols/trade/",
+              },
+              {
+                text: "Composis NFT",
+                link: "/en/sols/composis/",
+              },
+            ],
           },
           {
-            text: "Trade SOLS",
-            link: "/en/trade/",
-          },
-          {
-            text: "Composis NFT",
-            link: "/en/composis/",
+            text: "LAMP",
+            link: "/en/lamp/",
+            children: [
+              {
+                text: "Split Token",
+                link: "/en/lamp/split/",
+              },
+              {
+                text: "Trade SOLS",
+                link: "/en/lamp/trade/",
+              },
+              {
+                text: "Composis NFT",
+                link: "/en/lamp/composis/",
+              },
+            ],
           },
         ],
       },
       "/zh/": {
         selectLanguageName: "简体中文",
-
         sidebar: [
           {
-            text: "交易",
-            link: "/zh/交易/",
+            text: "SOLS",
+            link: "/zh/sols/",
+            children: [
+              {
+                text: "交易",
+                link: "/zh/sols/交易/",
+              },
+              // SidebarItem
+              {
+                text: "拆分代币",
+                link: "/zh/sols/拆分/",
+              },
+              {
+                text: "合成NFT",
+                link: "/zh/sols/合成/",
+              },
+            ],
           },
-          // SidebarItem
           {
-            text: "拆分代币",
-            link: "/zh/拆分/",
-          },
-          {
-            text: "合成NFT",
-            link: "/zh/合成/",
+            text: "LAMP",
+            link: "/zh/lamp/",
+            children: [
+              {
+                text: "交易",
+                link: "/zh/lamp/交易/",
+              },
+              // SidebarItem
+              {
+                text: "拆分代币",
+                link: "/zh/lamp/拆分/",
+              },
+              {
+                text: "合成NFT",
+                link: "/zh/lamp/合成/",
+              },
+            ],
           },
         ],
       },
@@ -66,11 +113,11 @@ export default defineUserConfig({
     // 作为特例，默认语言可以使用 '/' 作为其路径。
     "/": {
       lang: "en-US",
-      title: "SOLS SPL-20",
+      title: "SPL-20",
     },
     "/zh/": {
       lang: "zh-CN",
-      title: "SOLS SPL-20",
+      title: "SPL-20",
     },
   },
 });

@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-2d0ad528","path":"/zh/","title":"","lang":"zh-CN","frontmatter":{},"headers":[{"level":3,"title":"SPL20 教程","slug":"spl20-教程","link":"#spl20-教程","children":[]}],"git":{"updatedTime":1702124546000,"contributors":[{"name":"zkeai","email":"zq961052905@outlook.com","commits":1}]},"filePathRelative":"zh/README.md"}');export{e as data};
